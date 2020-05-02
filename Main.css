@@ -3,6 +3,7 @@ body { /* NOTE:dark gray bg
   background-color: #282d30; */
 
     background-image: url('../images/78DFB.JPG');
+    -webit- background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
 
