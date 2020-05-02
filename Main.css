@@ -2,7 +2,7 @@
 body { /* NOTE:dark gray bg
   background-color: #282d30; */
 
-    background-image: url('images/78dfb.jpg');
+    background-image: url('78dfb.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -20,7 +20,7 @@ body { /* NOTE:dark gray bg
     */
 .raisedbox {
         background-color: rgba(8,8,33,.88);
-        background-image: url("images/fmnb.png");
+        background-image: url("fmnb.png");
         background-position:57%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -79,7 +79,7 @@ ul:hover {
 .logo {
     margin-left: 145px;
     margin-top: -56px;
-    background-image: url('images/fmn1.png');
+    background-image: url('fmn1.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 300px;
