@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+body { /* NOTE:dark gray bg
+  background-color: #282d30; */
+
+    background-image: url('images/78dfb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* NOTE:  .raisedbox {
+    background-color: rgba(8,8,33,.72);
+		margin-top:-20px;
+		padding: 10px;
+		border: 2px solid turquoise;
+		border-style: ridge;
+		box-shadow: 0px 2px 8px 0px #3fab83;
+    position: relative;
+		}
+    */
+.raisedbox {
+        background-color: rgba(8,8,33,.88);
+        background-image: url("images/fmnb.png");
+        background-position:57%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 550px;
+        margin-top:-10px;
+    		padding: 20px;
+    		border: 2px solid turquoise;
+    		border-style: ridge;
+    		box-shadow: 0px 2px 8px 0px #3fab83;
+        height: 40px;
+    		}
+#boxShadow {
+		display:block;
+		margin-left:130px;
+		padding-top:4px;
+		height:260px;
+		width:600px;
+		background-color: rgba(8,8,33,.9);/*d0e9f7*/
+		box-shadow: 0px 4px 9px 0px #6ad9ad;
+	}
+.boxs2 {
+  	background-color: rgba(3,38,66,1);
+		margin-left:5px;
+		padding-top:3px;
+    padding-bottom: 10px;
+		width:582px;
+		height:12px;
+		text-align:center;
+		border: 2px solid turquoise;
+		border-style: inset;
+		border-radius:3px;
+
+	}
+ul {
+    display:inline-grid;
+    font-family:papyrus, fantasy;
+    font-size:14px;
+    color:#3fab83;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -74px;
+    padding:0 60px;
+  }
+ul:hover {
+    color:#31f7ca;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+.menustyle {
+    display: block;
+    font-family:papyrus, fantasy;
+    font-size:24px;
+    color:#3fab83;
+  }
+.logo {
+    margin-left: 145px;
+    margin-top: -56px;
+    background-image: url('images/fmn1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+.jl {
+  opacity:1;
+  font-family:papyrus, fantasy;
+  font-size:24px;
+  color:#3fab83;
+  padding:75px;
+  padding-top:0px;
+  padding-bottom:0px;
+  text-align:left;
+  margin-top:-10px;
+  margin-left:-10px;
+  margin-right:-10px;
+  margin-bottom:-11px;
+  }
+.jl1 {
+  text-align:left;
+  font-family: 'Aclonica', sans-serif;
+  font-size:13px;
+  font-weight: 100;
+  margin-left:72px;
+  margin-top:-7px;
+  }
+.butt {
+	margin-left:258px;
+	margin-top:14px;
+	background-color:red;
+    }
+.butt1 {
+	text-align:center;
+	font-size:40px;
+	text-shadow: 1px 1px blue;
+	color:green;
+    }
+table {border-collapse:collapse;
+		padding-bottom:10px;
+		margin-top:-9px;
+}
+td, th {
+  width:200px;
+  height:19px;
+  text-align: center;
+  font-size:12px;
+}
+td, a:hover {
+  background-color:#afeeee;
+  font-weight:bold;
+  border-radius:2px;
+  box-shadow: 0 2px 2px 0 rgba(25,25,112,0.34), 0 1px 2px 0 rgba(25,25,112,0.34);
+  }
