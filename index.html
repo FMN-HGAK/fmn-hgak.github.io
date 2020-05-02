@@ -2,27 +2,6 @@
 <html>
 <title>Forget Me Not</title>
 <link rel="stylesheet" type="text/css" href="Main.css">
-<script>
-/*Messing with ideas>>
-element.addEventListener("click",setState('this.id'));
-function rc(clicked_id) { alert(clicked_id);}
-function showId(obj) {
-		 var id=obj;
-		 alert(id);
-}
-*/
-var menus = ["Services", "Reviews", "Contact"];
-function setState() {
-	switch menus {
-		case 1: document.getElementById('menu').innerHTML =
-			"These are my Services";
-			break;
-		case 2: document.getElementById('menu').innerHTML =
-			"Happy Happy Customers";
-			break;
-		}
- }
-</script>
 
 <header>
 	<h1>
@@ -32,15 +11,34 @@ function setState() {
 <body>
   <br>
   <div id="boxShadow"><div class="boxs2">
-			  <ul id="1"  onclick="setState(this.id)">Services</ul>
-				<ul id="2" onclick="setState(this.id)">Reviews</ul>
-				<ul>Contact</ul>
+			  <ul id="m1">Services</ul>
+				<ul id="m2">Reviews</ul>
+				<ul id="m3">Contact</ul>
       </div>
-			<div><p id="menu" class="menustyle"></p>
+			<div class="logo"></div>
+			<div><p id="mcc" class="menustyle"></p>
 			</div>
-			<div class="logo"> </div>
   </div>
-	<!<input type="button" id="1234" onclick="showId(this.id)" value="click me to show my id"/>
+<script>
 
+	const m1="";
+	const m2="";
+	const m3="";
+	const m0 = "mission Statement";
+	const mcc = m0;
+
+	document.getElementById('m1').addEventListener("click", function(){
+		document.getElementById('mcc').innerHTML =
+		"These are my Services";
+	});
+	document.getElementById('m2').addEventListener("click", function(){
+		document.getElementById('mcc').innerHTML =
+		"Reviews from happy Customers";
+	});
+	document.getElementById('m3').addEventListener("click", function(){
+		document.getElementById('mcc').innerHTML =
+		"Contact me's";
+	});
+</script>
 </body>
 </html>
