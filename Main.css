@@ -33,7 +33,7 @@ body { /* NOTE:dark gray bg
 	}
 #boxShadow {
 	display:block;
-	margin-left:130px;
+	margin:auto;
 	padding-top:4px;
 	height:260px;
 	width:600px;
