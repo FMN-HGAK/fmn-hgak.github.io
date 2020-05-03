@@ -11,9 +11,9 @@
 <body>
   <br>
   <div id="boxShadow"><div class="boxs2">
-			  <ul id="m1">Services</ul>
-				<ul id="m2">Reviews</ul>
-				<ul id="m3">Contact</ul>
+			  <span id="m1">Services</span>
+				<span id="m2">Reviews</span>
+				<span id="m3">Contact</span>
       </div>
 			<div class="logo"></div>
 			<div><p id="mcc" class="menustyle"></p>
@@ -26,18 +26,20 @@
 	const m3="";
 	const m0 = "mission Statement";
 	const mcc = m0;
+	document.getElementById('mcc').innerHTML =
+	"~My Mission Statement~";
 
 	document.getElementById('m1').addEventListener("click", function(){
 		document.getElementById('mcc').innerHTML =
-		"These are my Services";
+		"~These are my Services~";
 	});
 	document.getElementById('m2').addEventListener("click", function(){
 		document.getElementById('mcc').innerHTML =
-		"Reviews from happy Customers";
+		"~ Reviews ~ <br> from happy Customers";
 	});
 	document.getElementById('m3').addEventListener("click", function(){
 		document.getElementById('mcc').innerHTML =
-		"Contact me's";
+		"~Contact Me Links~";
 	});
 </script>
 </body>
