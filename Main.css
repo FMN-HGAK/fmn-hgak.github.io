@@ -20,7 +20,7 @@ body { /* NOTE:dark gray bg
 .raisedbox {
         background-color: rgba(8,8,33,.88);
         background-image: url("images/fmnb.png");
-        background-position:57%;
+        background-position:54%;
         background-repeat: no-repeat;
         background-size: cover;
         background-size: 550px;
@@ -33,7 +33,7 @@ body { /* NOTE:dark gray bg
 	}
 #boxShadow {
 	display:block;
-	margin:auto;
+	margin-left: 177px;
 	padding-top:4px;
 	height:260px;
 	width:600px;
@@ -52,17 +52,17 @@ body { /* NOTE:dark gray bg
 	border-style: inset;
 	border-radius:3px;
 	}
-ul {
-    display:inline-grid;
+span {
+    display:inline-block;
     font-family: 'Mystery Quest', cursive;
     font-size:16px;
     color:#5593e0;
     text-align: center;
     text-decoration: none;
     margin-top: -74px;
-    padding:0 60px;
+    padding:0 65px;
   }
-ul:hover {
+span:hover {
     color:#31f7ca;
     font-family: 'Mystery Quest', cursive;
     font-size: 16px;
@@ -77,9 +77,10 @@ ul:hover {
     font-size:44px;
     color:#5593e0;
   }
+.star { }
 .logo {
     margin: auto;
-    background-position-y:-40px; 
+    background-position-y:-40px;
     background-image: url('images/fmn1.png');
     background-repeat: no-repeat;
     background-size: cover;
