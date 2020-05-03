@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
 body { /* NOTE:dark gray bg
   background-color: #282d30; */
@@ -6,17 +7,6 @@ body { /* NOTE:dark gray bg
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/* NOTE:  .raisedbox {
-    background-color: rgba(8,8,33,.72);
-		margin-top:-20px;
-		padding: 10px;
-		border: 2px solid turquoise;
-		border-style: ridge;
-		box-shadow: 0px 2px 8px 0px #3fab83;
-    position: relative;
-		}
-    */
 .raisedbox {
         background-color: rgba(8,8,33,.88);
         background-image: url("images/fmnb.png");
@@ -25,10 +15,10 @@ body { /* NOTE:dark gray bg
         background-size: cover;
         background-size: 550px;
         margin-top:-10px;
-    	padding: 20px;
-    	border: 2px solid #5593e0;
-	border-style: ridge;
-    	box-shadow: 0px 2px 8px 0px #5593e0;
+      	padding: 20px;
+      	border: 2px solid #5593e0;
+	      border-style: ridge;
+    	  box-shadow: 0px 2px 8px 0px #5593e0;
         height: 40px;
 	}
 #boxShadow {
@@ -42,11 +32,11 @@ body { /* NOTE:dark gray bg
 	}
 .boxs2 {
   	background-color: rgba(3,38,66,1);
-	margin-left:5px;
-	padding-top:3px;
-	padding-bottom: 10px;
-	width:582px;
-	height:12px;
+	  margin-left:5px;
+	  padding-top:3px;
+	  padding-bottom: 10px;
+	  width:582px;
+	  height:12px;
 	text-align:center;
 	border: 2px solid #5593e0;
 	border-style: inset;
@@ -77,7 +67,6 @@ span:hover {
     font-size:44px;
     color:#5593e0;
   }
-.star { }
 .logo {
     margin: auto;
     background-position-y:-40px;
