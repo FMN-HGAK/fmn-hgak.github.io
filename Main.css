@@ -1,61 +1,80 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
-body { /* NOTE:dark gray bg
-  background-color: #282d30; */
-
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
+body {
     background-image: url(fmn-hgak.github.io/images/78DFB.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+.fmn {
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 180px;
+    font-size: 42px;
+    font-family: 'Mountains of Christmas', cursive;
+    color: #5593e0;
+    text-align: center;
+  }
+.hg {
+    display: inline-block;
+    font-size: 37px;
+    margin-left: 75px;
+    margin-top: -30px;
+    font-family: 'Mountains of Christmas', cursive;
+    color: #5593e0;
+    text-align: center;
+  }
+
 .raisedbox {
         background-color: rgba(8,8,33,.88);
-        background-image: url("images/fmnb.png");
-        background-position:54%;
+        background-image: url("images/forgetme.png");
+        background-position-x:438px;
         background-repeat: no-repeat;
-        background-size: cover;
-        background-size: 550px;
+        background-size: 60px;
         margin-top:-10px;
-      	padding: 20px;
-      	border: 2px solid #5593e0;
+    	  padding: 20px;
+    	  border: 2px solid #5593e0;
 	      border-style: ridge;
     	  box-shadow: 0px 2px 8px 0px #5593e0;
-        height: 40px;
+        height: 29px;
 	}
 #boxShadow {
-	display:block;
-	margin-left: 177px;
-	padding-top:4px;
-	height:260px;
-	width:600px;
-	background-color: rgba(8,8,33,.9);/*d0e9f7*/
-	box-shadow: 0px 4px 9px 0px #5593e0;
+	      display:block;
+	      margin-left: 177px;
+	      padding-top:6px;
+	      height:260px;
+	      width:600px;
+	      background-color: rgba(8,8,33,.9);/*d0e9f7*/
+	      box-shadow: 0px 4px 9px 0px #5593e0;
 	}
 .boxs2 {
-  	background-color: rgba(3,38,66,1);
-	  margin-left:5px;
-	  padding-top:3px;
-	  padding-bottom: 10px;
-	  width:582px;
-	  height:12px;
-	text-align:center;
-	border: 2px solid #5593e0;
-	border-style: inset;
-	border-radius:3px;
-	}
+  	    background-color: rgba(3,38,66,1);
+	      margin-left:5px;
+	      padding-top:0px;
+	      padding-bottom: 12px;
+	      width:582px;
+	      height:12px;
+	      text-align:center;
+	      border: 2px solid #5593e0;
+	      border-style: inset;
+	      border-radius:3px;
+	     }
 span {
-    display:inline-block;
-    font-family: 'Mystery Quest', cursive;
-    font-size:16px;
+    display: inline;
+    font-family: 'Dekko', cursive;
+    font-size:18px;
     color:#5593e0;
     text-align: center;
     text-decoration: none;
-    margin-top: -74px;
-    padding:0 65px;
+    margin-top: -30px;
+    padding:10px 65px;
   }
 span:hover {
     color:#31f7ca;
-    font-family: 'Mystery Quest', cursive;
-    font-size: 16px;
+    font-family: 'Dekko', cursive;
+    font-size: 18px;
     font-weight: bolder;
     cursor: pointer;
   }
@@ -64,7 +83,7 @@ span:hover {
     display: block;
     text-align: center;
     font-family:papyrus, fantasy;
-    font-size:44px;
+    font-size:20px;
     color:#5593e0;
   }
 .logo {
@@ -78,25 +97,22 @@ span:hover {
     opacity: .15;
     position: static;
   }
-.jl {
-  opacity:1;
-  font-family:papyrus, fantasy;
-  font-size:24px;
-  color:#3fab83;
-  padding:75px;
-  padding-top:0px;
-  padding-bottom:0px;
-  text-align:left;
-  margin-top:-10px;
-  margin-left:-10px;
-  margin-right:-10px;
-  margin-bottom:-11px;
-  }
-.jl1 {
-  text-align:left;
-  font-family: 'Aclonica', sans-serif;
-  font-size:13px;
-  font-weight: 100;
-  margin-left:72px;
-  margin-top:-7px;
-  }
+.msgme {
+      background-position-x:center;
+      display: inline-block;
+      width: 320px;
+      height: 160px;
+      text-align: center;
+      margin-left:200px;
+      background-color:  rgba(8,8,33,1);
+      border-color: rgb(158, 185, 225, .9);
+      border-radius: 12px;
+      color: #5593e0;
+}
+.fram {
+  width: 400px;
+  height: 320px;
+  border-color: red;
+  scroll-behavior: auto;
+  border-radius: 12px;
+}
