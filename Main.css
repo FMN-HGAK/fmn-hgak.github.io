@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
@@ -115,5 +116,4 @@ span:hover {
   border-color: red;
   scroll-behavior: auto;
   border-radius: 12px;
-
 }
