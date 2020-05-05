@@ -109,6 +109,8 @@ span:hover {
       border-radius: 12px;
       color: #5593e0;
 }
+#myframe { margin-left: 100px;
+            width:540px; height: 420px}
 .fram {
   width: 400px;
   height: 320px;
