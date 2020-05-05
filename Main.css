@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
@@ -26,10 +27,9 @@ body {
     color: #5593e0;
     text-align: center;
   }
-
 .raisedbox {
         background-color: rgba(8,8,33,.88);
-        background-image: url("images/forgetme.png");
+        background-image: url("fmn-hgak.github.io/images/forgetme.png");
         background-position-x:438px;
         background-repeat: no-repeat;
         background-size: 60px;
