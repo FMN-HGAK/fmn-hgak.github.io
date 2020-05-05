@@ -21,7 +21,7 @@ body {
     display: inline-block;
     font-size: 37px;
     margin-left: 75px;
-    margin-top: -30px;
+    margin-top: -16px;
     font-family: 'Mountains of Christmas', cursive;
     color: #5593e0;
     text-align: center;
@@ -109,13 +109,12 @@ span:hover {
       border-radius: 12px;
       color: #5593e0;
 }
-#myframe { margin-left: 100px;
-            width:540px; height: 420px}
+#myframe { margin-left: 30px; margin-top: -50px;
+            width:540px; height: 360px;}
 .fram {
   width: 400px;
   height: 320px;
   border-color: red;
   scroll-behavior: auto;
   border-radius: 12px;
-
 }
