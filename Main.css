@@ -11,29 +11,37 @@ body {
 }
 .fmn {
     display: inline-block;
-    margin-top: -16px;
-    margin-left: 180px;
+    margin-top: -26px;
+    margin-left: 5em;
     font-size: 42px;
     font-family: 'Mountains of Christmas', cursive;
     color: #5593e0;
     text-align: center;
+}
+  .hg {
+      display: inline-block;
+      font-size: 37px;
+      margin-left: 3em;
+      margin-top: -26px;
+      font-family: 'Mountains of Christmas', cursive;
+      color: #5593e0;
+      text-align: center;
   }
-.hg {
-    display: inline-block;
-    font-size: 37px;
-    margin-left: 75px;
-    margin-top: -16px;
-    font-family: 'Mountains of Christmas', cursive;
-    color: #5593e0;
-    text-align: center;
+  .logo1 {
+      display: block;
+      margin: auto;
+      margin-top: -25px;
+      background-image: url("images/forgetme.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 80px;
+      height: 74px;
+      margin-bottom: -44px;
   }
-
-.raisedbox {
+.headLogo {
         background-color: rgba(8,8,33,.88);
-        background-image: url("fmn-hgak.github.io/images/forgetme.png");
-        background-position-x:438px;
-        background-repeat: no-repeat;
-        background-size: 60px;
+        width: 90%;
+        margin: auto;
         margin-top:-10px;
     	  padding: 20px;
     	  border: 2px solid #5593e0;
@@ -43,41 +51,43 @@ body {
 	}
 #boxShadow {
 	      display:block;
-	      margin-left: 177px;
+	      margin: auto;
 	      padding-top:6px;
-	      height:260px;
-	      width:600px;
+	      height:280px;
+	      width:700px;
 	      background-color: rgba(8,8,33,.9);/*d0e9f7*/
 	      box-shadow: 0px 4px 9px 0px #63a7fb;
 	}
-.boxs2 {
-  	    background-color: rgba(3,38,66,1);
-	      margin-left:5px;
-	      padding-top:0px;
-	      padding-bottom: 12px;
-	      width:582px;
-	      height:12px;
-	      text-align:center;
-	      border: 2px solid #5593e0;
-	      border-style: inset;
-	      border-radius:3px;
-	     }
-span {
+  .menuBox {
+      background-color: rgba(3,38,66,1);
+      margin: auto;
+      padding-top: 0px;
+      padding-bottom: 12px;
+      width: 622px;
+      height: 12px;
+      text-align: center;
+      border: 2px solid #bccadd;
+      border-style: inset;
+      border-radius: 6px;
+  }
+.menuClass {
     display: inline;
     font-family: 'Dekko', cursive;
     font-size:18px;
-    color:#5593e0;
+    color:#bccadd;
     text-align: center;
     text-decoration: none;
     margin-top: -30px;
     padding:10px 65px;
   }
-span:hover {
-    color:#31f7ca;
+.menuClass:hover {
+    color:#0060d6;
+    border-radius: 25px;
     font-family: 'Dekko', cursive;
     font-size: 18px;
     font-weight: bolder;
     cursor: pointer;
+    padding: -25px;
   }
 .menustyle {
     margin-top: -200px;
@@ -87,7 +97,7 @@ span:hover {
     font-size:20px;
     color:#5593e0;
   }
-.logo {
+#logo {
     margin: auto;
     background-position-y:-40px;
     background-image: url('images/fmn1.png');
@@ -110,12 +120,78 @@ span:hover {
       border-radius: 12px;
       color: #5593e0;
 }
-#myframe { margin-left: 30px; margin-top: -50px;
-            width:540px; height: 360px;}
-.fram {
-  width: 400px;
-  height: 320px;
-  border-color: red;
-  scroll-behavior: auto;
-  border-radius: 12px;
+#myFrame {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 620px;
+    height: 190px;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: rgba(99, 167, 251, .3);
+    background-color: rgb(3, 38, 66);
+    border-style: solid;
+    padding-top: 4px;
+}
+.frameTitle {
+    display: block;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: underline;
+    width: 620px;
+    margin: auto;
+    color:#bccadd;
+}
+#servFrame {display: none; width: 620px;
+height: 190px;}
+#revFrame {display: none;}
+#conFrame {display: none;}
+#serv1 {
+    display: inline-block;
+    font-family: 'Dekko', cursive;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2em;
+}
+.servC1 {
+     color:white;
+     margin-left: 20px;
+}
+.servC2 {
+     color:white;
+     margin-left: 20px;
+}
+#mail {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url("images/mail.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 24px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family:papyrus, fantasy;
+    font-size:20px;
+    color:#5593e0;
+}
+#mail:hover {
+  color:#0060d6;
+  border-radius: 25px;
+  font-family:papyrus, fantasy;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: -25px;
+}
+#call, #twitter {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-family:papyrus, fantasy;
+  font-size:24px;
+  color:#5593e0;
 }
