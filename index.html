@@ -2,45 +2,71 @@
 <html>
 <title>Forget Me Not</title>
 <link rel="stylesheet" type="text/css" href="Main.css">
-
 <header>
 	<h1>
-	  <div class="raisedbox"> </div>
+	  <div class="headLogo">
+      <div class="logo1"></div>
+		 	<span class="fmn">Forget Me Not</span>
+			<span class="hg">Home and Garden</span>
+		</div>
   </h1>
 </header>
 <body>
   <br>
-  <div id="boxShadow"><div class="boxs2">
-			  <span id="m1">Services</span>
-				<span id="m2">Reviews</span>
-				<span id="m3">Contact</span>
+  <div id="boxShadow"><div class="menuBox">
+			  <span id="m1" class="menuClass">Services</span>
+				<span id="m2" class="menuClass">Reviews</span>
+				<span id="m3" class="menuClass">Contact</span>
       </div>
-			<div class="logo"></div>
-			<div><p id="mcc" class="menustyle"></p>
-			</div>
+
+			<div id="myFrame">
+        <div id="servFrame">
+          <div class="frameTitle">services</div>
+				    <span id="serv1" class="servC1">Lawn Care</span>
+				    <span id="serv1" class="servC1">Gardening</span>
+				    <span id="serv1" class="servC2">Exterior Winow Cleaning</span>
+				    <span id="serv1" class="servC1">Home Repairs</span>
+						<span id="serv1" class="servC1">Freelance Photography</span>
+						<span id="serv1" class="servC1">Pet Care</span>
+        </div>
+
+        <div id="revFrame">
+          <div class="frameTitle">Reviews</div>
+        </div>
+        <div id="conFrame">
+          <div class="frameTitle">Contacts</div>
+            <span id="mail" href="mailto:forgetmenot.hgak@gmail.com"></span><br>
+	    <span id="call">907-555-5555</span><br>
+	    <span id="twitter">@fmg-hgak</span>
+        </div>
+
   </div>
-
+</div>
 <script>
-	const m1="";
-	const m2="";
-	const m3="";
-	const m0 = "mission Statement";
-	const mcc = m0;
-	document.getElementById('mcc').innerHTML =
-	"~My Mission Statement~";
-
-	document.getElementById('m1').addEventListener("click", function(){
-		document.getElementById('mcc').innerHTML =
-		"~These are my Services~";
-	});
-	document.getElementById('m2').addEventListener("click", function(){
-		document.getElementById('mcc').innerHTML =
-		"~ Reviews ~ <br> from happy Customers";
-	});
-	document.getElementById('m3').addEventListener("click", function(){
-		document.getElementById('mcc').innerHTML =
-		"~Contact Me Links~";
-	});
+document.getElementById('m1').addEventListener("click", function(){
+	var q = document.getElementById('servFrame');
+	var qq= document.getElementById('revFrame');
+	var aq= document.getElementById('conFrame');
+		q.style.display = "block";
+		qq.style.display= "none";
+		aq.style.display= "none";
+});
+document.getElementById('m2').addEventListener("click", function(){
+	var q = document.getElementById('servFrame');
+	var qq= document.getElementById('revFrame');
+	var aq= document.getElementById('conFrame');
+		q.style.display = "none";
+		qq.style.display= "block";
+		aq.style.display= "none";
+});
+document.getElementById('m3').addEventListener("click", function(){
+	var q = document.getElementById('conFrame');
+	var qq= document.getElementById('revFrame');
+	var aq= document.getElementById('servFrame');
+		q.style.display = "block";
+		qq.style.display= "none";
+		aq.style.display= "none";
+});
 </script>
 </body>
 </html>
