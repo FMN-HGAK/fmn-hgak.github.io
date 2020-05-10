@@ -170,8 +170,8 @@ height: 190px;}
     background-image: url("images/email.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 60px;
-    height: 44px;
+    width: 43px;
+    height: 34px;
     margin-bottom: 0px;
     text-align: center;
     font-family:papyrus, fantasy;
@@ -187,7 +187,21 @@ height: 190px;}
   cursor: pointer;
   padding: -25px;
 }
-#call, #twitter {
+#call {
+  display: block;
+  margin: auto;
+  background-image: url("images/call.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 43px;
+  height: 34px;
+  text-align: center;
+  font-family:papyrus, fantasy;
+  font-size:24px;
+  color:#5593e0;
+}
+#call:hover { cursor: pointer;}
+#twitter {
   display: block;
   margin: auto;
   text-align: center;
