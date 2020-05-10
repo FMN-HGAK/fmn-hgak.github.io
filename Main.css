@@ -167,7 +167,7 @@ height: 190px;}
     display: block;
     margin: auto;
     margin-top: 20px;
-    background-image: url("images/mail.png");
+    background-image: url("images/email.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 40px;
@@ -194,4 +194,26 @@ height: 190px;}
   font-family:papyrus, fantasy;
   font-size:24px;
   color:#5593e0;
+}
+#m2 { margin-right: 17px;}
+.mom {
+    display: block;
+    margin-left: 10em;
+    margin-top: 9em;
+    padding-top: 40px;
+    background-image: url("images/momcard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 220px;
+}
+.mom2 {
+    display: block;
+    margin-left: 40em;
+    margin-top: -10em;
+    background-image: url("images/momsday.jpg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 600px;
+    height: 500px;
 }
